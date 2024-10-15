@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    width: 80%; /* 전체 컨테이너 너비를 80%로 넓힘 */
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #8B0000;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 1px solid #8B0000;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8B0000;
+    padding: 0 10px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.photo {
+    flex: 1;
+    text-align: center;
+}
+
+.info {
+    flex: 2;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%; /* 입력 필드와 텍스트 영역의 너비를 100%로 설정 */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical; /* 세로 크기 조정만 허용 */
+    height: 150px; /* 기본 텍스트 영역의 높이 */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #8B0000;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.declaration {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #8B0000;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #a52a2a;
+}
